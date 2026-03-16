@@ -1,3 +1,7 @@
 playwright
 loguru
 requests
+pytest
+faker
+allure-pytest
+python-dotenv
