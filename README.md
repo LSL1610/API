@@ -69,7 +69,8 @@ uv venv
 
 ### 3. Install dependencies
 ```bash
+uv sync
 uv lock
 
 ### 4. Run Command to generate html report
-pytest --html=report_api.html --self-contained-html
+pytest \tests --html=report_api.html
